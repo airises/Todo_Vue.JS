@@ -1,5 +1,4 @@
 {
-  "homepage": "https://airises.github.io/Todo_Vue.JS",
   "name": "vue-todo",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build ",
-    "deploy": "gh-pages -d build -m 'Automatically update gh-pages [skip ci]'"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
